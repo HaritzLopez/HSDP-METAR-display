@@ -10,6 +10,8 @@ The code depends on:
 You need to install them first. Use the Arduino IDE's library manager for the purpose. It will ease your life.
 The code was written for the ESP32 board, it may work for other WiFi capable Arduinos, but it may requiere some adaptations.
 
+You need to update the SSID and Password of your wireless network into the .ino. Also, add your AVWX token to be able to reach the API.
+
 Steps for building and uploading the code to the ESP32 board:
   1. Download the .ino file and open it in the Arduino IDE.
   2. Select DOIT ESP32 DEVKIT V1 board under Tools > Boards > ESP32 Arduino
